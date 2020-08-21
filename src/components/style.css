@@ -1,0 +1,91 @@
+#home{
+   
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+
+    
+}
+.section{
+    background-color:cyan;
+    width: 40%;
+    height: 40%;
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.section .logo-section{
+
+    text-align: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.play-button-container {
+     background-color: green;
+     text-align: center;
+     height: auto;
+     cursor: pointer;
+     padding: 5px;
+     border-radius: 10px;
+     margin: 50px;
+ 
+}
+
+#play-button{
+    color: white;
+    font-size: larger;
+    font-style: normal;
+   text-decoration: none;
+}
+
+
+.auth-container1{
+    background-color: blue;
+    text-align: center;
+    height: auto;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 50px;
+}
+.auth-container2{
+    background-color: red;
+    text-align: center;
+    height: auto;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.auth-container1 .login-button{
+    color: white;
+    font-size: larger;
+    font-style: normal;
+   text-decoration: none;
+}
+.auth-container2 .signup-button{
+    color: white;
+    font-size: larger;
+    font-style: normal;
+   text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    font-size:x-large;
+    font-family: sans-serif;
+    color:white;
+}
+
+
+
+
+
